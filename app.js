@@ -14,54 +14,114 @@ app.use((req, res, next) => {
   
   app.use((req, res) => {
     res.json({
-        "Ouest": [
-          {
-            "ville": "Bafoussam",
-            "adresses": [
-              "Quartier Ancien Plateau, BP 123",
-              "Quartier Nouveau Plateau, Rue des Fleurs",
-              "Quartier Bamendzi, Avenue de l'Indépendance",
-              "Quartier Bansoa, Rue du Marché"
-            ]
-          },
-          {
-            "ville": "Dschang",
-            "adresses": [
-              "Quartier Cité des Magistrats, BP 456",
-              "Quartier Université, Cité Universitaire",
-              "Quartier Château, Rue de la Paix",
-              "Quartier Carrière, Rue du Commerce"
-            ]
-          },
-          {
-            "ville": "Mbouda",
-            "adresses": [
-              "Quartier Atié, BP 789",
-              "Quartier Petit-Paris, Avenue des Martyrs",
-              "Quartier Poste, Rue de l'Hôpital",
-              "Quartier Gare, Rue de la Gare"
-            ]
-          },
-          {
-            "ville": "Foumban",
-            "adresses": [
-              "Quartier Ancien Palais, BP 321",
-              "Quartier Nouveau Palais, Avenue Royale",
-              "Quartier Douala, Rue des Artisans",
-              "Quartier Marché, Rue du Marché"
-            ]
-          },
-          {
-            "ville": "Bangangté",
-            "adresses": [
-              "Quartier Centre-Ville, BP 159",
-              "Quartier Porte de Bafang, Avenue de la Liberté",
-              "Quartier Dispensaire, Rue de l'Hôpital",
-              "Quartier Gendarmerie, Rue de la Gendarmerie"
-            ]
-          }
-        ]
-      }); 
+      "Ouest": [
+        {
+          "ville": "Bafoussam",
+          "adresses": [
+            {
+              "adresse": "Quartier Ancien Plateau, BP 123",
+              "code_postal": "12345"
+            },
+            {
+              "adresse": "Quartier Nouveau Plateau, Rue des Fleurs",
+              "code_postal": "12346"
+            },
+            {
+              "adresse": "Quartier Bamendzi, Avenue de l'Indépendance",
+              "code_postal": "12347"
+            },
+            {
+              "adresse": "Quartier Bansoa, Rue du Marché",
+              "code_postal": "12348"
+            }
+          ]
+        },
+        {
+          "ville": "Dschang",
+          "adresses": [
+            {
+              "adresse": "Quartier Cité des Magistrats, BP 456",
+              "code_postal": "23451"
+            },
+            {
+              "adresse": "Quartier Université, Cité Universitaire",
+              "code_postal": "23452"
+            },
+            {
+              "adresse": "Quartier Château, Rue de la Paix",
+              "code_postal": "23453"
+            },
+            {
+              "adresse": "Quartier Carrière, Rue du Commerce",
+              "code_postal": "23454"
+            }
+          ]
+        },
+        {
+          "ville": "Mbouda",
+          "adresses": [
+            {
+              "adresse": "Quartier Atié, BP 789",
+              "code_postal": "34561"
+            },
+            {
+              "adresse": "Quartier Petit-Paris, Avenue des Martyrs",
+              "code_postal": "34562"
+            },
+            {
+              "adresse": "Quartier Poste, Rue de l'Hôpital",
+              "code_postal": "34563"
+            },
+            {
+              "adresse": "Quartier Gare, Rue de la Gare",
+              "code_postal": "34564"
+            }
+          ]
+        },
+        {
+          "ville": "Foumban",
+          "adresses": [
+            {
+              "adresse": "Quartier Ancien Palais, BP 321",
+              "code_postal": "45671"
+            },
+            {
+              "adresse": "Quartier Nouveau Palais, Avenue Royale",
+              "code_postal": "45672"
+            },
+            {
+              "adresse": "Quartier Douala, Rue des Artisans",
+              "code_postal": "45673"
+            },
+            {
+              "adresse": "Quartier Marché, Rue du Marché",
+              "code_postal": "45674"
+            }
+          ]
+        },
+        {
+          "ville": "Bangangté",
+          "adresses": [
+            {
+              "adresse": "Quartier Centre-Ville, BP 159",
+              "code_postal": "56781"
+            },
+            {
+              "adresse": "Quartier Porte de Bafang, Avenue de la Liberté",
+              "code_postal": "56782"
+            },
+            {
+              "adresse": "Quartier Dispensaire, Rue de l'Hôpital",
+              "code_postal": "56783"
+            },
+            {
+              "adresse": "Quartier Gendarmerie, Rue de la Gendarmerie",
+              "code_postal": "56784"
+            }
+          ]
+        }
+      ]
+    }); 
  });
 
 module.exports = app;
