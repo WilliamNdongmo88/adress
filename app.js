@@ -19,19 +19,19 @@ app.use((req, res, next) => {
           "ville": "Bafoussam",
           "adresses": [
             {
-              "adresse": "Quartier Ancien Plateau, BP 123",
+              "adresse": "Ancien Plateau, BP 123",
               "code_postal": "12345"
             },
             {
-              "adresse": "Quartier Nouveau Plateau, Rue des Fleurs",
+              "adresse": "Nouveau Plateau, Rue des Fleurs",
               "code_postal": "12346"
             },
             {
-              "adresse": "Quartier Bamendzi, Avenue de l'Indépendance",
+              "adresse": "Bamendzi, Avenue de l'Indépendance",
               "code_postal": "12347"
             },
             {
-              "adresse": "Quartier Bansoa, Rue du Marché",
+              "adresse": "Bansoa, Rue du Marché",
               "code_postal": "12348"
             }
           ]
@@ -40,19 +40,19 @@ app.use((req, res, next) => {
           "ville": "Dschang",
           "adresses": [
             {
-              "adresse": "Quartier Cité des Magistrats, BP 456",
+              "adresse": "Cité des Magistrats, BP 456",
               "code_postal": "23451"
             },
             {
-              "adresse": "Quartier Université, Cité Universitaire",
+              "adresse": "Université, Cité Universitaire",
               "code_postal": "23452"
             },
             {
-              "adresse": "Quartier Château, Rue de la Paix",
+              "adresse": "Château, Rue de la Paix",
               "code_postal": "23453"
             },
             {
-              "adresse": "Quartier Carrière, Rue du Commerce",
+              "adresse": "Carrière, Rue du Commerce",
               "code_postal": "23454"
             }
           ]
@@ -61,19 +61,19 @@ app.use((req, res, next) => {
           "ville": "Mbouda",
           "adresses": [
             {
-              "adresse": "Quartier Atié, BP 789",
+              "adresse": "Atié, BP 789",
               "code_postal": "34561"
             },
             {
-              "adresse": "Quartier Petit-Paris, Avenue des Martyrs",
+              "adresse": "Petit-Paris, Avenue des Martyrs",
               "code_postal": "34562"
             },
             {
-              "adresse": "Quartier Poste, Rue de l'Hôpital",
+              "adresse": "Poste, Rue de l'Hôpital",
               "code_postal": "34563"
             },
             {
-              "adresse": "Quartier Gare, Rue de la Gare",
+              "adresse": "Gare, Rue de la Gare",
               "code_postal": "34564"
             }
           ]
@@ -82,19 +82,19 @@ app.use((req, res, next) => {
           "ville": "Foumban",
           "adresses": [
             {
-              "adresse": "Quartier Ancien Palais, BP 321",
+              "adresse": "Ancien Palais, BP 321",
               "code_postal": "45671"
             },
             {
-              "adresse": "Quartier Nouveau Palais, Avenue Royale",
+              "adresse": "Nouveau Palais, Avenue Royale",
               "code_postal": "45672"
             },
             {
-              "adresse": "Quartier Douala, Rue des Artisans",
+              "adresse": "Douala, Rue des Artisans",
               "code_postal": "45673"
             },
             {
-              "adresse": "Quartier Marché, Rue du Marché",
+              "adresse": "Marché, Rue du Marché",
               "code_postal": "45674"
             }
           ]
@@ -103,19 +103,19 @@ app.use((req, res, next) => {
           "ville": "Bangangté",
           "adresses": [
             {
-              "adresse": "Quartier Centre-Ville, BP 159",
+              "adresse": "Centre-Ville, BP 159",
               "code_postal": "56781"
             },
             {
-              "adresse": "Quartier Porte de Bafang, Avenue de la Liberté",
+              "adresse": "Porte de Bafang, Avenue de la Liberté",
               "code_postal": "56782"
             },
             {
-              "adresse": "Quartier Dispensaire, Rue de l'Hôpital",
+              "adresse": "Dispensaire, Rue de l'Hôpital",
               "code_postal": "56783"
             },
             {
-              "adresse": "Quartier Gendarmerie, Rue de la Gendarmerie",
+              "adresse": "Gendarmerie, Rue de la Gendarmerie",
               "code_postal": "56784"
             }
           ]
